@@ -1,9 +1,10 @@
+//go:build freebsd
 // +build freebsd
 
 package fsutil
 
 import (
-	"github.com/tonistiigi/fsutil/types"
+	"github.com/dovejb/fsutil/types"
 	"golang.org/x/sys/unix"
 )
 

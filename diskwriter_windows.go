@@ -1,10 +1,11 @@
+//go:build windows
 // +build windows
 
 package fsutil
 
 import (
+	"github.com/dovejb/fsutil/types"
 	"github.com/pkg/errors"
-	"github.com/tonistiigi/fsutil/types"
 )
 
 func rewriteMetadata(p string, stat *types.Stat) error {

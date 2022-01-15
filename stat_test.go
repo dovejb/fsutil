@@ -5,8 +5,8 @@ import (
 	"path/filepath"
 	"testing"
 
+	"github.com/dovejb/fsutil/types"
 	"github.com/stretchr/testify/assert"
-	"github.com/tonistiigi/fsutil/types"
 )
 
 func TestStat(t *testing.T) {

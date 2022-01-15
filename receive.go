@@ -6,8 +6,8 @@ import (
 	"os"
 	"sync"
 
+	"github.com/dovejb/fsutil/types"
 	"github.com/pkg/errors"
-	"github.com/tonistiigi/fsutil/types"
 	"golang.org/x/sync/errgroup"
 )
 

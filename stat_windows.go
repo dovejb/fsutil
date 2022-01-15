@@ -1,3 +1,4 @@
+//go:build windows
 // +build windows
 
 package fsutil
@@ -5,7 +6,7 @@ package fsutil
 import (
 	"os"
 
-	"github.com/tonistiigi/fsutil/types"
+	"github.com/dovejb/fsutil/types"
 )
 
 func loadXattr(_ string, _ *types.Stat) error {

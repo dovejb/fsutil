@@ -12,9 +12,9 @@ import (
 	"testing"
 
 	"github.com/containerd/continuity/fs/fstest"
+	"github.com/dovejb/fsutil"
 	"github.com/pkg/errors"
 	"github.com/stretchr/testify/require"
-	"github.com/tonistiigi/fsutil"
 )
 
 // TODO: Create copy directory which requires privilege

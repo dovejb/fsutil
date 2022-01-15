@@ -7,7 +7,7 @@ import (
 	"os"
 	"strings"
 
-	"github.com/tonistiigi/fsutil"
+	"github.com/dovejb/fsutil"
 )
 
 func main() {

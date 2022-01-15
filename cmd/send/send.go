@@ -5,8 +5,8 @@ import (
 	"flag"
 	"os"
 
-	"github.com/tonistiigi/fsutil"
-	"github.com/tonistiigi/fsutil/util"
+	"github.com/dovejb/fsutil"
+	"github.com/dovejb/fsutil/util"
 )
 
 func main() {

@@ -5,8 +5,8 @@ import (
 	"path/filepath"
 	"runtime"
 
+	"github.com/dovejb/fsutil/types"
 	"github.com/pkg/errors"
-	"github.com/tonistiigi/fsutil/types"
 )
 
 // constructs a Stat object. path is where the path can be found right

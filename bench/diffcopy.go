@@ -3,9 +3,9 @@ package bench
 import (
 	"context"
 
+	"github.com/dovejb/fsutil"
+	fstypes "github.com/dovejb/fsutil/types"
 	"github.com/pkg/errors"
-	"github.com/tonistiigi/fsutil"
-	fstypes "github.com/tonistiigi/fsutil/types"
 	"golang.org/x/sync/errgroup"
 )
 

@@ -5,8 +5,8 @@ import (
 	"hash"
 	"os"
 
+	"github.com/dovejb/fsutil/types"
 	"github.com/pkg/errors"
-	"github.com/tonistiigi/fsutil/types"
 )
 
 type walkerFn func(ctx context.Context, pathC chan<- *currentPath) error

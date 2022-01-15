@@ -1,3 +1,4 @@
+//go:build !windows && !freebsd
 // +build !windows,!freebsd
 
 package fsutil
@@ -5,7 +6,7 @@ package fsutil
 import (
 	"syscall"
 
-	"github.com/tonistiigi/fsutil/types"
+	"github.com/dovejb/fsutil/types"
 )
 
 func createSpecialFile(path string, mode uint32, stat *types.Stat) error {

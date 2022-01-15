@@ -13,11 +13,11 @@ import (
 	"testing"
 	"time"
 
+	"github.com/dovejb/fsutil/types"
 	"github.com/opencontainers/go-digest"
 	"github.com/pkg/errors"
 	"github.com/stretchr/testify/assert"
 	"github.com/stretchr/testify/require"
-	"github.com/tonistiigi/fsutil/types"
 	"golang.org/x/sync/errgroup"
 )
 

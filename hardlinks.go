@@ -4,8 +4,8 @@ import (
 	"os"
 	"syscall"
 
+	"github.com/dovejb/fsutil/types"
 	"github.com/pkg/errors"
-	"github.com/tonistiigi/fsutil/types"
 )
 
 // Hardlinks validates that all targets for links were part of the changes

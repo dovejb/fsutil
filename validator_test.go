@@ -6,8 +6,8 @@ import (
 	"strings"
 	"testing"
 
+	"github.com/dovejb/fsutil/types"
 	"github.com/stretchr/testify/assert"
-	"github.com/tonistiigi/fsutil/types"
 )
 
 func TestValidatorSimpleFiles(t *testing.T) {

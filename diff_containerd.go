@@ -7,7 +7,7 @@ import (
 	"os"
 	"strings"
 
-	"github.com/tonistiigi/fsutil/types"
+	"github.com/dovejb/fsutil/types"
 	"golang.org/x/sync/errgroup"
 )
 

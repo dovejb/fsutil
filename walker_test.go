@@ -12,10 +12,10 @@ import (
 	"strings"
 	"testing"
 
+	"github.com/dovejb/fsutil/types"
 	"github.com/pkg/errors"
 	"github.com/stretchr/testify/assert"
 	"github.com/stretchr/testify/require"
-	"github.com/tonistiigi/fsutil/types"
 )
 
 func TestWalkerSimple(t *testing.T) {

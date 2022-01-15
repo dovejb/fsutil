@@ -13,8 +13,8 @@ import (
 
 	"github.com/containerd/continuity/fs"
 	"github.com/docker/docker/pkg/fileutils"
+	"github.com/dovejb/fsutil"
 	"github.com/pkg/errors"
-	"github.com/tonistiigi/fsutil"
 )
 
 var bufferPool = &sync.Pool{

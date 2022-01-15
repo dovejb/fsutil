@@ -9,8 +9,8 @@ import (
 	"time"
 
 	"github.com/docker/docker/pkg/fileutils"
+	"github.com/dovejb/fsutil/types"
 	"github.com/pkg/errors"
-	"github.com/tonistiigi/fsutil/types"
 )
 
 type WalkOpt struct {

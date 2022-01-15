@@ -11,9 +11,9 @@ import (
 	"syscall"
 	"time"
 
+	"github.com/dovejb/fsutil/types"
 	"github.com/opencontainers/go-digest"
 	"github.com/pkg/errors"
-	"github.com/tonistiigi/fsutil/types"
 	"golang.org/x/sync/errgroup"
 )
 

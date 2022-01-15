@@ -1,3 +1,4 @@
+//go:build !windows
 // +build !windows
 
 package fsutil
@@ -7,8 +8,8 @@ import (
 	"syscall"
 
 	"github.com/containerd/continuity/sysx"
+	"github.com/dovejb/fsutil/types"
 	"github.com/pkg/errors"
-	"github.com/tonistiigi/fsutil/types"
 )
 
 func rewriteMetadata(p string, stat *types.Stat) error {
